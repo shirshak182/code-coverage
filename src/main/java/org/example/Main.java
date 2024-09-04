@@ -19,6 +19,10 @@ public class Main {
         ArithmeticOperation divide = (a,b)->a/b;
         ArithmeticOperation substract = (a,b)->a-b;
 
+
+
+        //hello
+
         Main main = new Main();
         main.display(add);
         main.display(multiply);
