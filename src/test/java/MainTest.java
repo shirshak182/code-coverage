@@ -13,13 +13,13 @@ public class MainTest {
     @Test
     public void testAdditionOperation() {
         ArithmeticOperation add = (a, b) -> a + b;
-        assertEquals(String.valueOf(30), String.valueOf(add.operate(20, 10)), "20 + 10 should be 30");
+        assertEquals("20 + 10 should be 30",String.valueOf(30), String.valueOf(add.operate(20, 10)));
     }
 
     @Test
     public void testSubtractionOperation() {
         ArithmeticOperation subtract = (a, b) -> a - b;
-        assertEquals(String.valueOf(10), String.valueOf(subtract.operate(20, 10)), "20 - 10 should be 10");
+        assertEquals("20 - 10 should be 10",String.valueOf(10), String.valueOf(subtract.operate(20, 10)));
     }
 
 
