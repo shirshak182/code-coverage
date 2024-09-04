@@ -5,9 +5,7 @@ package org.example;
  * @Date - 04/09/2024
  */
 
-public interface ArithmeticOperation{
-    int operate(int a,int b);
-}
+
 
 public class Main {
     public int binarySearch(int arr[], int low, int high, int x){
