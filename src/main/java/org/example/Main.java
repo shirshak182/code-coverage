@@ -5,7 +5,7 @@ package org.example;
  * @Date - 04/09/2024
  */
 
-interface ArithmeticOperation{
+public interface ArithmeticOperation{
     int operate(int a,int b);
 }
 
